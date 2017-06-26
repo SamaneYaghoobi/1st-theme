@@ -1,0 +1,124 @@
+@media screen and (max-width: 31.5em) {
+	.grid {
+		padding: 10px 10px 100px 10px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+	}
+}
+@media screen and (max-width: 1200px){
+	#intro hgroup h1{
+		font-size: 95px;
+	}
+}
+@media screen and (max-width: 960px){
+	#process article span{
+		margin: 0 4%;
+	}
+	#portfolio{
+		overflow: hidden;
+	}
+	.port-style{
+		-webkit-transform: scale(.95);
+		-moz-transform: scale(.95);
+		-o-transform: scale(.95);
+		transform: scale(.95);
+	}
+}
+@media screen and (max-width: 768px){
+	#intro hgroup h1{
+		font-size: 85px;
+	}
+	#process article span{
+		margin: 0 10% 4em;
+	}
+	#portfolio{
+		padding-bottom: 0;
+	}
+	.port-style{
+		margin-left: -4em;
+		-webkit-transform: scale(.75);
+		-moz-transform: scale(.75);
+		-o-transform: scale(.75);
+		transform: scale(.75);
+
+	}
+	#contact article > div{
+		width: 100%;
+	}
+	#address>p {
+		padding: 2.6em 0 1em;
+	}
+}
+@media screen and (max-width: 600px){
+	#intro hgroup h1{
+		font-size: 65px;
+	}
+	#about{
+		padding: 5em 3em 8em;
+	}
+	#services{
+		overflow: hidden;
+	}
+	#services article div{
+		font-size: 1.6em;
+	}
+	.port-style{
+		margin: -15em -5em -10em;
+		-webkit-transform: scale(.55);
+		-moz-transform: scale(.55);
+		-o-transform: scale(.55);
+		transform: scale(.55);
+
+	}
+}
+@media screen and (max-width: 480px){
+	#intro{
+		overflow: hidden;
+	}
+	#intro hgroup h1{
+		font-size: 45px;
+	}
+	#intro hgroup h1 span{
+		font-size: 50px;
+	}
+	#about{
+		padding: 4em 1em;
+	}
+	#about h1{
+		font-size: 1.5em;
+	}
+	#about h4{
+		font-size: 1.3em;
+	}
+	#about p{
+		font-size: 1.2em;
+	}
+	#services>h2{
+		font-size: 4em;
+	}
+	#services article div {
+		font-size: 1.3em;
+		padding: .3em .5em;
+		width: 100%;
+		margin: 2% 0%;
+		-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+	}
+	#process h4{
+		padding-top: 0;
+	}
+	#portfolio>h2{
+		font-size: 3.5em;
+	}
+	.port-style{
+		margin: -15em -7em -5em; 
+	}
+	#send-btn{
+		margin: .7em auto 0;
+		float: none;
+	}
+	#contact article > div{
+		padding: 0 4% !important;
+	}
+}
